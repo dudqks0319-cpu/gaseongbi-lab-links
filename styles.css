@@ -81,22 +81,31 @@ img {
 }
 
 .hero {
-  padding: 1.75rem 1.25rem 1.35rem;
+  padding: 1.55rem 1.25rem 1.15rem;
   background:
     radial-gradient(circle at 88% 5%, rgba(255, 199, 0, 0.22), transparent 32%),
     linear-gradient(180deg, #ffffff 0%, #fff9ea 100%);
 }
 
-.event-badge {
-  display: inline-flex;
-  width: fit-content;
+.brand-row {
+  display: flex;
   align-items: center;
-  border-radius: 0.55rem;
-  background: #e0e7ff;
-  color: #4338ca;
-  font-size: 0.74rem;
+  gap: 0.48rem;
+  color: #1f2937;
+  font-size: 0.86rem;
   font-weight: 950;
-  padding: 0.38rem 0.62rem;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.65rem;
+  background: #111827;
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 950;
 }
 
 h1,
@@ -108,8 +117,8 @@ figure {
 }
 
 .hero h1 {
-  margin-top: 0.85rem;
-  font-size: 2.15rem;
+  margin-top: 1rem;
+  font-size: 2.05rem;
   font-weight: 950;
   line-height: 1.08;
   letter-spacing: 0;
@@ -123,20 +132,86 @@ figure {
   line-height: 1.65;
 }
 
-.hero-card {
-  overflow: hidden;
-  margin-top: 1.15rem;
-  border: 1px solid #fde68a;
-  border-radius: 1.35rem;
-  background: #fff;
-  box-shadow: var(--shadow);
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
 }
 
-.hero-card img {
-  width: 100%;
-  aspect-ratio: 1 / 0.68;
-  object-fit: cover;
-  object-position: top center;
+.hero-stats span {
+  min-width: 0;
+  border: 1px solid #fde68a;
+  border-radius: 0.9rem;
+  background: #fff;
+  color: #4b5563;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1.35;
+  padding: 0.62rem 0.52rem;
+  text-align: center;
+}
+
+.hero-stats b {
+  display: block;
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 950;
+}
+
+.campaign-hub {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+  background: #fff;
+  padding: 0 1.25rem 1.15rem;
+}
+
+.campaign-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.72rem;
+  align-items: center;
+  min-height: 4.45rem;
+  border: 1px solid #eef2f7;
+  border-radius: 1rem;
+  background: #f9fafb;
+  padding: 0.82rem;
+}
+
+.campaign-card.active {
+  border-color: rgba(229, 37, 40, 0.22);
+  background: linear-gradient(180deg, #fff 0%, #fff7ed 100%);
+  box-shadow: 0 10px 24px rgba(229, 37, 40, 0.08);
+}
+
+.campaign-card.coming {
+  opacity: 0.78;
+}
+
+.campaign-icon {
+  display: grid;
+  grid-row: span 2;
+  place-items: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 0.9rem;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.06);
+  font-size: 1.35rem;
+}
+
+.campaign-card strong {
+  color: #111827;
+  font-size: 0.98rem;
+  font-weight: 950;
+}
+
+.campaign-card em {
+  color: #6b7280;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 760;
 }
 
 .category-tabs {
@@ -170,51 +245,143 @@ figure {
 
 .product-feed {
   display: grid;
-  gap: 2.15rem;
+  gap: 1.2rem;
   background: #f8fafc;
   padding: 1.25rem;
 }
 
-.quick-note,
-.thread-guide {
-  border: 1px solid #fde68a;
-  border-radius: 1rem;
-  background: #fffbeb;
-  color: #713f12;
-  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.08);
+.quick-pick,
+.number-finder,
+.price-index {
+  scroll-margin-top: 7.2rem;
+  border: 1px solid #eef2f7;
+  border-radius: 1.2rem;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
   padding: 1rem;
 }
 
-.thread-guide {
-  margin-top: -1.25rem;
-  border-color: #bfdbfe;
-  background: #eff6ff;
-  color: #1e3a8a;
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08);
+.quick-pick {
+  display: grid;
+  gap: 0.9rem;
 }
 
-.quick-note strong,
-.thread-guide strong {
+.eyebrow {
+  margin-bottom: 0.15rem;
+  color: var(--red);
+  font-size: 0.78rem;
+  font-weight: 950;
+}
+
+.quick-pick h2,
+.number-finder h2 {
+  color: #111827;
+  font-size: 1.24rem;
+  font-weight: 950;
+  line-height: 1.25;
+}
+
+.quick-pick p:not(.eyebrow),
+.number-finder p:not(.eyebrow) {
+  margin-top: 0.38rem;
+  color: #4b5563;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.age-map {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.age-map a,
+.price-grid a {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.9rem;
+  background: #f9fafb;
+  padding: 0.72rem;
+}
+
+.age-map a:first-child {
+  grid-column: 1 / -1;
+}
+
+.age-map b,
+.price-grid strong {
   display: block;
-  margin-bottom: 0.35rem;
-  color: #92400e;
+  color: #111827;
   font-size: 0.95rem;
   font-weight: 950;
 }
 
-.thread-guide strong {
-  color: #1d4ed8;
+.age-map span,
+.price-grid span {
+  display: block;
+  margin-top: 0.18rem;
+  color: #6b7280;
+  font-size: 0.78rem;
+  font-weight: 780;
+  line-height: 1.35;
 }
 
-.quick-note p,
-.thread-guide p {
-  font-size: 0.84rem;
-  font-weight: 720;
-  line-height: 1.55;
+.jump-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
 }
 
-.thread-guide p + p {
-  margin-top: 0.46rem;
+.jump-form label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.jump-form input {
+  min-width: 0;
+  height: 3.1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.9rem;
+  background: #fff;
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 850;
+  outline: none;
+  padding: 0 0.9rem;
+}
+
+.jump-form input:focus {
+  border-color: var(--red);
+  box-shadow: 0 0 0 3px rgba(229, 37, 40, 0.12);
+}
+
+.jump-form button {
+  height: 3.1rem;
+  border: 0;
+  border-radius: 0.9rem;
+  background: #111827;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 950;
+  padding: 0 1rem;
+}
+
+.jump-message {
+  min-height: 1.2rem;
+  color: #b91c1c;
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.price-grid {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
 }
 
 .product-section {
@@ -288,6 +455,11 @@ figure {
 
 .product-card + .product-card {
   margin-top: 1rem;
+}
+
+.product-card.is-highlighted {
+  border-color: rgba(229, 37, 40, 0.46);
+  box-shadow: 0 0 0 3px rgba(229, 37, 40, 0.12), 0 12px 30px rgba(15, 23, 42, 0.1);
 }
 
 .product-card figure {
