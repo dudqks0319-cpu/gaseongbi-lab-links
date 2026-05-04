@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+.wrangler/
+assets/age-06-elementary-high.png
+assets/product-boardgame-*.png
+assets/product-kickboard-black.png
+assets/product-kickboard-white.png
+assets/safari-product-lego.png
+assets/search-boardgame.png
