@@ -112,7 +112,7 @@ figure {
   font-size: 2.15rem;
   font-weight: 950;
   line-height: 1.08;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 
 .hero p {
@@ -175,6 +175,48 @@ figure {
   padding: 1.25rem;
 }
 
+.quick-note,
+.thread-guide {
+  border: 1px solid #fde68a;
+  border-radius: 1rem;
+  background: #fffbeb;
+  color: #713f12;
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.08);
+  padding: 1rem;
+}
+
+.thread-guide {
+  margin-top: -1.25rem;
+  border-color: #bfdbfe;
+  background: #eff6ff;
+  color: #1e3a8a;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08);
+}
+
+.quick-note strong,
+.thread-guide strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #92400e;
+  font-size: 0.95rem;
+  font-weight: 950;
+}
+
+.thread-guide strong {
+  color: #1d4ed8;
+}
+
+.quick-note p,
+.thread-guide p {
+  font-size: 0.84rem;
+  font-weight: 720;
+  line-height: 1.55;
+}
+
+.thread-guide p + p {
+  margin-top: 0.46rem;
+}
+
 .product-section {
   scroll-margin-top: 7.2rem;
 }
@@ -210,12 +252,38 @@ figure {
   line-height: 1.25;
 }
 
+.section-lede {
+  margin: -0.18rem 0 0.9rem 2.78rem;
+  color: #4b5563;
+  font-size: 0.84rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
 .product-card {
+  position: relative;
   overflow: hidden;
+  scroll-margin-top: 6.1rem;
   border: 1px solid #eef2f7;
   border-radius: 1.2rem;
   background: var(--surface);
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.product-card::before {
+  content: attr(data-product-number);
+  position: absolute;
+  left: 0.9rem;
+  top: 0.9rem;
+  z-index: 2;
+  border: 1px solid rgba(229, 37, 40, 0.18);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--red);
+  font-size: 0.78rem;
+  font-weight: 950;
+  padding: 0.32rem 0.56rem;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
 }
 
 .product-card + .product-card {
@@ -298,12 +366,29 @@ figure {
   color: #be185d;
 }
 
+.red {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
 .product-content h3 {
   margin-bottom: 0.62rem;
   color: #111827;
   font-size: 1.08rem;
   font-weight: 950;
   line-height: 1.3;
+}
+
+.price {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 0.62rem;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.78rem;
+  font-weight: 880;
+  padding: 0.3rem 0.6rem;
 }
 
 .reason {

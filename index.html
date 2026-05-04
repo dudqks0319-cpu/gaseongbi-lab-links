@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>가성비연구소 | 어린이날 선물 나이대별 추천</title>
+    <title>가성비연구소 | 어린이날 선물 나이대별 추천 후보</title>
     <meta
       name="description"
-      content="어린이날 선물을 1~2세, 블록/교구, 야외활동, 보드게임, 사진놀이 카테고리별로 정리한 쿠팡파트너스 큐레이션 페이지입니다."
+      content="어린이날 선물을 1~2세, 2~3세, 3~5세, 5~6세, 7~8세 나이대별로 빠르게 고를 수 있게 정리한 쿠팡파트너스 큐레이션 페이지입니다."
     />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="어린이날 선물 아직 못 골랐다면" />
     <meta
       property="og:description"
-      content="나이대별 어린이날 선물 후보를 카테고리별로 빠르게 확인하세요."
+      content="나이대별 어린이날 선물 후보 25개를 가격·주의점과 함께 확인하세요."
     />
     <meta property="og:image" content="./assets/childrens-day-top5-card.png" />
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
@@ -23,15 +23,15 @@
       <a class="skip-link" href="#products">상품 추천으로 바로가기</a>
 
       <div class="ad-notice">
-        [광고] 쿠팡파트너스 활동으로 수수료를 받을 수 있습니다.
+        [광고] 이 페이지는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
       </div>
 
       <header class="hero">
-        <span class="event-badge">어린이날 특집</span>
-        <h1>어린이날 선물<br />아직 못 골랐다면?</h1>
+        <span class="event-badge">어린이날 선물 큐레이션</span>
+        <h1>아이 나이별로<br />선물 후보만 빠르게</h1>
         <p>
-          나이대별로 고르기 쉬운 후보만 정리했습니다. 가격과 배송 가능 여부는
-          구매 전 상품 페이지에서 꼭 확인하세요.
+          1~2세부터 7~8세까지 가격대와 놀이 성향을 나눠 정리했습니다.
+          가격과 배송 가능 여부는 구매 전 상품 페이지에서 확인하세요.
         </p>
         <div class="hero-card">
           <img
@@ -41,183 +41,397 @@
         </div>
       </header>
 
-      <nav class="category-tabs" aria-label="상품 카테고리">
-        <a href="#baby">👶 1~2세</a>
-        <a href="#blocks">🧩 블록/교구</a>
-        <a href="#outdoor">🛴 야외활동</a>
-        <a href="#boardgame">🎲 보드게임</a>
-        <a href="#photo">📷 사진놀이</a>
+      <nav class="category-tabs" aria-label="연령대별 상품 카테고리">
+        <a href="#age-1-2">👶 1~2세</a>
+        <a href="#age-2-3">🧸 2~3세</a>
+        <a href="#age-3-5">🍦 3~5세</a>
+        <a href="#age-5-6">🎨 5~6세</a>
+        <a href="#age-7-8">🎒 7~8세</a>
         <a href="#checklist">✅ 체크</a>
       </nav>
 
       <main id="products" class="product-feed">
-        <section id="baby" class="product-section">
+        <section class="quick-note" aria-label="구매 전 안내">
+          <strong>급하게 고를 때 기준</strong>
+          <p>
+            낮은 가격보다 아이 나이, 권장연령, 작은 부품, 보관 공간을 먼저 보세요.
+            배송·가격·구성은 상품 페이지에서 바뀔 수 있습니다.
+          </p>
+        </section>
+
+        <section class="thread-guide" aria-label="Threads 안내 문구">
+          <strong>Threads에서는 이렇게 안내하세요</strong>
+          <p>
+            “1~2세는 1~5번, 2~3세는 6~10번, 3~5세는 11~15번,
+            5~6세는 16~20번, 7~8세는 21~25번 제품 보면 돼요.”
+          </p>
+          <p>
+            맘카페식으로는 “아이 나이랑 예산 말해주시면 몇 번 제품 보면 되는지
+            바로 골라드릴게요.”가 자연스럽습니다.
+          </p>
+        </section>
+
+        <section id="age-1-2" class="product-section">
           <div class="section-title">
             <span>👶</span>
             <div>
-              <p>1~2세 추천</p>
-              <h2>입에 넣는 시기라 안전·세척 기준</h2>
+              <p>1~2세 추천 후보</p>
+              <h2>손에 잡고 바로 반응하는 선물</h2>
             </div>
           </div>
+          <p class="section-lede">
+            입으로 탐색하는 시기라 권장연령, 세척, 작은 부품 여부가 중요합니다.
+          </p>
 
-          <article class="product-card">
-            <figure><img src="./assets/age-01-1-2.png" alt="말랑블록 추천 이미지" /></figure>
+          <article id="p01" class="product-card" data-product-number="1번 제품">
+            <figure><img src="./assets/product-fish-puzzle.jpg" alt="유아 낚시놀이 퍼즐 곤충 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge green">가성비 선물</span>
-              <h3>말랑블록</h3>
+              <span class="badge green">1만 원 이하</span>
+              <h3>유아 낚시놀이 퍼즐 곤충</h3>
+              <p class="price">보고서 확인가 6,010원</p>
+              <p class="reason">손으로 잡고 맞추는 놀이가 바로 가능해 가벼운 선물로 보기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 조각 크기와 권장연령을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmom9" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p02" class="product-card" data-product-number="2번 제품">
+            <figure><img src="./assets/product-comfort-doll.jpg" alt="오가닉 애착토 수면인형 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge sky">잠자리 루틴</span>
+              <h3>오가닉 애착토 수면인형</h3>
+              <p class="price">보고서 확인가 26,500원</p>
+              <p class="reason">장난감보다 낮잠·밤잠 루틴에 쓸 선물을 찾을 때 무난한 후보입니다.</p>
+              <p class="warning"><b>주의</b> 세탁 방법과 소재 표시를 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmoBT" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p03" class="product-card" data-product-number="3번 제품">
+            <figure><img src="./assets/product-lego-duplo-10914.jpg" alt="레고 듀플로 10914 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge purple">첫 블록</span>
+              <h3>레고 듀플로 10914</h3>
+              <p class="price">보고서 확인가 56,900원</p>
+              <p class="reason">큰 블록이라 처음 조립 놀이를 시작하는 아이에게 오래 쓰기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 18개월 이상 등 권장연령을 상세페이지에서 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmoO6" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p04" class="product-card" data-product-number="4번 제품">
+            <figure><img src="./assets/product-magnet-block-aora.jpg" alt="아오라 자석블럭 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge indigo">자석 교구</span>
+              <h3>아오라 자석블럭 32pcs</h3>
+              <p class="price">보고서 확인가 49,500원</p>
+              <p class="reason">큰 사이즈 자석블록이라 처음 자석블록 입문용 후보로 보기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 자석 파손, 삼킴 위험, 보관 상태를 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmo2C" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p05" class="product-card" data-product-number="5번 제품">
+            <figure><img src="./assets/product-samchuly-tricycle.jpg" alt="삼천리자전거 세발자전거 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge orange">프리미엄</span>
+              <h3>삼천리자전거 케디 플러스 세발자전거</h3>
+              <p class="price">보고서 확인가 240,000원</p>
+              <p class="reason">예산이 넉넉하고 오래 탈 선물을 찾을 때 비교해볼 만한 후보입니다.</p>
+              <p class="warning"><b>주의</b> 보관 공간과 배송 일정을 먼저 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmpfx" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+        </section>
+
+        <section id="age-2-3" class="product-section">
+          <div class="section-title">
+            <span>🧸</span>
+            <div>
+              <p>2~3세 추천 후보</p>
+              <h2>말랑한 블록·차·역할놀이</h2>
+            </div>
+          </div>
+          <p class="section-lede">
+            누르면 반응이 오거나 부모와 같이 놀 수 있는 제품이 잘 맞는 구간입니다.
+          </p>
+
+          <article id="p06" class="product-card" data-product-number="6번 제품">
+            <figure><img src="./assets/product-bebimong-soft-block.jpg" alt="베비몽 소프트 말랑 블럭 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge green">말랑 블록</span>
+              <h3>베비몽 소프트 말랑 블럭 대형</h3>
+              <p class="price">보고서 확인가 27,900원</p>
               <p class="reason">쌓고 무너뜨리는 반복 놀이를 좋아하는 아이에게 무난합니다.</p>
-              <p class="warning"><b>주의</b> 권장연령과 소재 냄새 여부를 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eCfsQC" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <p class="warning"><b>주의</b> 소재 냄새, 세척 가능 여부, 구성 수량을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmptu" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
 
-          <article class="product-card">
-            <figure><img src="./assets/age-01-1-2.png" alt="사운드북 추천 이미지" /></figure>
+          <article id="p07" class="product-card" data-product-number="7번 제품">
+            <figure><img src="./assets/product-firetruck-5in1.jpg" alt="소방차 장난감 5in1 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge blue">소리 반응</span>
-              <h3>사운드북</h3>
-              <p class="reason">버튼을 누르면 반응이 바로 와서 짧게 집중하기 좋습니다.</p>
-              <p class="warning"><b>주의</b> 소리 크기 조절 가능 여부를 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eCfwjV" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge red">자동차 놀이</span>
+              <h3>토요요 소방차 장난감 5in1</h3>
+              <p class="price">보고서 확인가 19,900원</p>
+              <p class="reason">차, 버튼, 구조놀이가 섞여 있어 반응이 빠른 선물 후보입니다.</p>
+              <p class="warning"><b>주의</b> 소리 크기와 작은 부품 구성을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmpIO" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
 
-          <article class="product-card">
-            <figure><img src="./assets/age-01-1-2.png" alt="목욕놀이 추천 이미지" /></figure>
+          <article id="p08" class="product-card" data-product-number="8번 제품">
+            <figure><img src="./assets/product-attirabbit-bike.jpg" alt="아띠래빗 붕붕카 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge sky">목욕 시간</span>
-              <h3>목욕놀이 장난감</h3>
-              <p class="reason">목욕을 싫어하는 아이에게 놀이처럼 접근하기 좋은 후보입니다.</p>
-              <p class="warning"><b>주의</b> 물때가 끼지 않게 건조 구조를 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eCfIhd" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge orange">실내 활동</span>
+              <h3>아띠래빗 붕붕카 실내용 미니바이크</h3>
+              <p class="price">보고서 확인가 29,070원</p>
+              <p class="reason">집 안에서도 바로 타는 놀이가 가능해 활동량 많은 아이에게 맞습니다.</p>
+              <p class="warning"><b>주의</b> 바닥 미끄러짐과 층간소음, 체중 제한을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmpVW" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
 
-          <article class="product-card">
-            <figure><img src="./assets/age-01-1-2.png" alt="원목퍼즐 추천 이미지" /></figure>
+          <article id="p09" class="product-card" data-product-number="9번 제품">
+            <figure><img src="./assets/product-lunastory-hospital.jpg" alt="루나스토리 병원놀이 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge yellow">소근육 놀이</span>
-              <h3>원목퍼즐</h3>
-              <p class="reason">끼우고 빼는 놀이로 손 조작을 연습하기 좋습니다.</p>
-              <p class="warning"><b>주의</b> 작은 조각 삼킴 위험이 없는지 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eCfRtS" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
-            </div>
-          </article>
-        </section>
-
-        <section id="blocks" class="product-section">
-          <div class="section-title">
-            <span>🧩</span>
-            <div>
-              <p>블록·창의교구</p>
-              <h2>한 번 사면 오래 쓰는 쪽</h2>
-            </div>
-          </div>
-
-          <article class="product-card">
-            <figure><img src="./assets/product-lego-duplo.png" alt="레고 듀플로 상품 이미지" /></figure>
-            <div class="product-content">
-              <span class="badge purple">창의놀이</span>
-              <h3>레고 듀플로/블록</h3>
-              <p class="reason">조립 난이도가 낮아 첫 블록 선물로 보기 좋습니다.</p>
-              <p class="warning"><b>주의</b> 제품별 권장연령이 다르니 상세페이지를 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eBy2ng" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge blue">역할놀이</span>
+              <h3>루나스토리 리얼 병원놀이 26종</h3>
+              <p class="price">보고서 확인가 33,850원</p>
+              <p class="reason">부모가 환자 역할로 같이 놀기 좋아 말놀이와 역할놀이를 이어가기 쉽습니다.</p>
+              <p class="warning"><b>주의</b> 작은 도구가 많아 보관함과 분실 가능성을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmp8K" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
 
-          <article class="product-card">
-            <figure><img src="./assets/age-03-5-6.png" alt="자석블록 추천 이미지" /></figure>
+          <article id="p10" class="product-card" data-product-number="10번 제품">
+            <figure><img src="./assets/product-tayo-rescue-center.jpg" alt="타요 긴급 출동센터 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge indigo">오래 쓰는 선물</span>
-              <h3>자석블록</h3>
-              <p class="reason">혼자 만들기와 형제자매 같이 놀기 모두에 쓰기 좋습니다.</p>
-              <p class="warning"><b>주의</b> 자석 파손 위험과 보관 방법을 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eBzavj" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge sky">캐릭터 세트</span>
+              <h3>꼬마버스 타요 긴급 출동센터</h3>
+              <p class="price">보고서 확인가 62,980원</p>
+              <p class="reason">타요를 좋아하는 아이에게는 세계관 놀이가 바로 이어지는 후보입니다.</p>
+              <p class="warning"><b>주의</b> 배송 일정과 설치 공간을 먼저 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmqm8" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
         </section>
 
-        <section id="outdoor" class="product-section">
+        <section id="age-3-5" class="product-section">
           <div class="section-title">
-            <span>🛴</span>
+            <span>🍦</span>
             <div>
-              <p>야외활동</p>
-              <h2>활동량 많은 아이를 위한 선물</h2>
+              <p>3~5세 추천 후보</p>
+              <h2>꺼내서 오래 노는 역할놀이</h2>
             </div>
           </div>
+          <p class="section-lede">
+            혼자 흉내 내고 부모가 손님 역할로 참여할 수 있는 장난감이 잘 맞습니다.
+          </p>
 
-          <article class="product-card">
-            <figure><img src="./assets/product-kickboard.png" alt="어린이 킥보드 상품 이미지" /></figure>
+          <article id="p11" class="product-card" data-product-number="11번 제품">
+            <figure><img src="./assets/product-bnc-magic-board.jpg" alt="비앤씨 빅칼라 매직보드 책상 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge orange">활동형</span>
-              <h3>어린이 킥보드</h3>
-              <p class="reason">공원이나 산책할 때 바로 쓰기 좋은 야외 선물 후보입니다.</p>
-              <p class="warning"><b>주의</b> 보호장비와 신장 권장 범위를 함께 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eByDrA" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge yellow">그림 놀이</span>
+              <h3>비앤씨 빅칼라 매직보드 책상</h3>
+              <p class="price">보고서 확인가 20,900원</p>
+              <p class="reason">종이나 벽 대신 반복해서 그리고 지울 수 있어 부모 입장에서도 실용적입니다.</p>
+              <p class="warning"><b>주의</b> 보드 크기와 펜 구성, 보관 방식을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmqDB" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
 
-          <article class="product-card">
-            <figure><img src="./assets/product-kickboard-pink.png" alt="핑크 어린이 킥보드 상품 이미지" /></figure>
+          <article id="p12" class="product-card" data-product-number="12번 제품">
+            <figure><img src="./assets/product-kongsuni-fridge.jpg" alt="콩순이 냉장고 소꿉놀이 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge pink">선물감</span>
-              <h3>컬러 킥보드</h3>
-              <p class="reason">색상 취향이 뚜렷한 아이에게 선물 느낌을 주기 좋습니다.</p>
-              <p class="warning"><b>주의</b> 실제 색상과 구성은 상세페이지에서 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eByDrA" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge pink">소꿉놀이</span>
+              <h3>콩순이 말하는 냉장고 소꿉놀이</h3>
+              <p class="price">보고서 확인가 33,850원</p>
+              <p class="reason">꺼내고 넣는 행동이 반복돼 며칠 이상 이어지는 역할놀이로 보기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 건전지 포함 여부와 소리 크기를 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmqPu" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
 
-          <article class="product-card">
-            <figure><img src="./assets/age-01-1-2.png" alt="걸음마 장난감 추천 이미지" /></figure>
+          <article id="p13" class="product-card" data-product-number="13번 제품">
+            <figure><img src="./assets/product-pororo-icecream.jpg" alt="뽀로로 아이스크림 가게 놀이 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge green">아기 활동</span>
-              <h3>걸음마 장난감</h3>
-              <p class="reason">잡고 서기, 밀기 놀이를 시작한 아이에게 실용적인 편입니다.</p>
-              <p class="warning"><b>주의</b> 바퀴 속도 조절과 바닥 미끄러짐을 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eCfLb0" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge sky">가게 놀이</span>
+              <h3>뽀로로 아이스크림 가게 놀이</h3>
+              <p class="price">보고서 확인가 34,900원</p>
+              <p class="reason">아이 혼자 주문받기와 만들기 놀이를 시작하기 쉬운 역할놀이 후보입니다.</p>
+              <p class="warning"><b>주의</b> 부품 수와 정리 난이도를 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmq3H" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p14" class="product-card" data-product-number="14번 제품">
+            <figure><img src="./assets/product-aquamagic-kitchen.jpg" alt="아쿠아매직 보글보글 요리 주방놀이 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge blue">만들기 놀이</span>
+              <h3>아쿠아매직 보글보글 요리 주방놀이</h3>
+              <p class="price">보고서 확인가 42,310원</p>
+              <p class="reason">만드는 과정이 있어 받는 순간보다 놀이 시간이 길어지는 타입입니다.</p>
+              <p class="warning"><b>주의</b> 물 사용, 청소 방식, 보호자 동반 필요 여부를 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmrgn" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p15" class="product-card" data-product-number="15번 제품">
+            <figure><img src="./assets/product-tiniping-fridge.jpg" alt="티니핑 하츄핑 냉장고 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge purple">캐릭터 선물</span>
+              <h3>캐치티니핑 하츄핑 냉장고</h3>
+              <p class="price">보고서 확인가 55,350원</p>
+              <p class="reason">티니핑을 좋아하는 아이에게는 설명 없이도 취향이 맞기 쉬운 후보입니다.</p>
+              <p class="warning"><b>주의</b> 캐릭터 취향과 부품 구성, 보관 공간을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmruA" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
         </section>
 
-        <section id="boardgame" class="product-section">
+        <section id="age-5-6" class="product-section">
           <div class="section-title">
-            <span>🎲</span>
+            <span>🎨</span>
             <div>
-              <p>보드게임·가족놀이</p>
-              <h2>부모와 같이 놀 수 있는 선물</h2>
+              <p>5~6세 추천 후보</p>
+              <h2>캐릭터·만들기·가족놀이</h2>
             </div>
           </div>
+          <p class="section-lede">
+            이미 아는 캐릭터와 직접 만드는 과정이 있으면 선물 반응이 좋아지기 쉽습니다.
+          </p>
 
-          <article class="product-card">
-            <figure><img src="./assets/age-05-elementary-low.png" alt="보드게임 추천 이미지" /></figure>
+          <article id="p16" class="product-card" data-product-number="16번 제품">
+            <figure><img src="./assets/product-pokemon-ladder.jpg" alt="포켓몬 사다리 보드게임 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge blue">가족놀이</span>
-              <h3>어린이 보드게임</h3>
-              <p class="reason">가족이 같이 놀 수 있어 선물 후 활용도가 높은 편입니다.</p>
-              <p class="warning"><b>주의</b> 규칙 난이도와 플레이 시간을 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eBy7SY" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge yellow">가벼운 보드게임</span>
+              <h3>포켓몬 사다리 보드게임</h3>
+              <p class="price">보고서 확인가 4,200원</p>
+              <p class="reason">가격 부담이 작고 가족이 같이 놀 수 있어 가볍게 추가하기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 무료배송 조건과 권장연령을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmrIq" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p17" class="product-card" data-product-number="17번 제품">
+            <figure><img src="./assets/product-sanrio-tattoo.jpg" alt="산리오 타투디자인 만들기 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge pink">꾸미기 놀이</span>
+              <h3>산리오 캐릭터즈 타투디자인 만들기</h3>
+              <p class="price">보고서 확인가 21,530원</p>
+              <p class="reason">꾸미기와 만들기를 좋아하는 아이에게 과정 자체가 놀이가 됩니다.</p>
+              <p class="warning"><b>주의</b> 피부 사용 제품이라 사용법과 제거 방법을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmrXG" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p18" class="product-card" data-product-number="18번 제품">
+            <figure><img src="./assets/product-tiniping-castle.jpg" alt="티니핑 캐슬 놀이공원 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge purple">캐릭터 세트</span>
+              <h3>캐치티니핑 티니핑 캐슬 놀이공원</h3>
+              <p class="price">보고서 확인가 47,920원</p>
+              <p class="reason">티니핑 세계관 놀이를 좋아하면 하나의 큰 세트로 선물감이 있습니다.</p>
+              <p class="warning"><b>주의</b> 피규어 포함 여부와 작은 부품을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmsaW" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p19" class="product-card" data-product-number="19번 제품">
+            <figure><img src="./assets/product-kongsuni-burger.jpg" alt="콩순이 햄버거 자판기 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge orange">주문 놀이</span>
+              <h3>콩순이 말하는 햄버거 자판기</h3>
+              <p class="price">보고서 확인가 34,980원</p>
+              <p class="reason">주문받기 놀이가 쉬워 부모가 손님 역할로 바로 참여하기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 소리 기능과 건전지, 부품 보관을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmsn4" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p20" class="product-card" data-product-number="20번 제품">
+            <figure><img src="./assets/product-tiniping-sticker.jpg" alt="티니핑 입체 스티커메이커 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge blue">만들기형</span>
+              <h3>캐치티니핑 입체 스티커메이커</h3>
+              <p class="price">보고서 확인가 34,700원</p>
+              <p class="reason">받고 끝나는 선물보다 직접 만드는 과정이 있어 집중 놀이로 이어집니다.</p>
+              <p class="warning"><b>주의</b> 소모품 포함량과 리필 가능 여부를 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmsAA" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
         </section>
 
-        <section id="photo" class="product-section">
+        <section id="age-7-8" class="product-section">
           <div class="section-title">
-            <span>📷</span>
+            <span>🎒</span>
             <div>
-              <p>사진놀이</p>
-              <h2>여행·일상 놀이로 이어지는 선물</h2>
+              <p>7~8세 추천 후보</p>
+              <h2>직접 해보는 경험이 있는 선물</h2>
             </div>
           </div>
+          <p class="section-lede">
+            초등 저학년은 보드게임, 조립, 촬영, 조종처럼 스스로 해보는 선물이 잘 맞습니다.
+          </p>
 
-          <article class="product-card">
-            <figure><img src="./assets/age-04-7-8.png" alt="키즈카메라 추천 이미지" /></figure>
+          <article id="p21" class="product-card" data-product-number="21번 제품">
+            <figure><img src="./assets/product-rummikub-funnybag.jpg" alt="루미큐브 퍼니백 상품 이미지" /></figure>
             <div class="product-content">
-              <span class="badge sky">사진놀이</span>
-              <h3>키즈카메라</h3>
-              <p class="reason">사진 찍기를 좋아하는 아이에게 여행과 일상 놀이로 이어집니다.</p>
-              <p class="warning"><b>주의</b> 충전 방식과 내구성을 확인하세요.</p>
-              <a class="buy-button" href="https://link.coupang.com/a/eBy5g7" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+              <span class="badge blue">가족 보드게임</span>
+              <h3>코리아보드게임즈 루미큐브 퍼니백</h3>
+              <p class="price">보고서 확인가 28,490원</p>
+              <p class="reason">어린 장난감 느낌이 덜하고 가족이 함께 플레이하기 좋은 후보입니다.</p>
+              <p class="warning"><b>주의</b> 규칙 이해가 필요한 게임이라 아이 성향을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmsOa" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p22" class="product-card" data-product-number="22번 제품">
+            <figure><img src="./assets/product-lego-classic-10698.jpg" alt="레고 클래식 라지 조립 박스 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge purple">조립 놀이</span>
+              <h3>레고클래식 라지 조립 박스 10698</h3>
+              <p class="price">보고서 확인가 55,890원</p>
+              <p class="reason">한 번 만들고 끝나는 제품보다 여러 번 새로 만들기 좋아 오래 쓰기 쉽습니다.</p>
+              <p class="warning"><b>주의</b> 조각 수가 많아 정리함을 같이 준비하는 편이 좋습니다.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCms2I" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p23" class="product-card" data-product-number="23번 제품">
+            <figure><img src="./assets/product-gravitrax-starter.jpg" alt="그래비트랙스 코어 스타터 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge indigo">과학 조립</span>
+              <h3>그래비트랙스 코어 스타터</h3>
+              <p class="price">보고서 확인가 77,520원</p>
+              <p class="reason">구슬 길을 직접 설계하는 타입이라 과학·조립을 좋아하는 아이에게 맞습니다.</p>
+              <p class="warning"><b>주의</b> 최소연령과 배송 일정을 상세페이지에서 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmte4" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p24" class="product-card" data-product-number="24번 제품">
+            <figure><img src="./assets/product-kids-camera-steelduck.jpg" alt="스틸덕 키즈 디지털 카메라 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge sky">사진 놀이</span>
+              <h3>스틸덕 아이뽀또 키즈 디지털 카메라</h3>
+              <p class="price">보고서 확인가 45,800원</p>
+              <p class="reason">받자마자 사진을 찍고 보여주는 놀이로 이어져 여행·일상용으로 좋습니다.</p>
+              <p class="warning"><b>주의</b> 충전 방식, 메모리 포함 여부, 내구성을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmtsi" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+
+          <article id="p25" class="product-card" data-product-number="25번 제품">
+            <figure><img src="./assets/product-bnc-ghost-rc.jpg" alt="비앤씨 스파이더 고스트 RC자동차 상품 이미지" /></figure>
+            <div class="product-content">
+              <span class="badge red">조종 놀이</span>
+              <h3>비앤씨 스파이더 고스트 RC자동차</h3>
+              <p class="price">보고서 확인가 18,900원</p>
+              <p class="reason">리모컨을 잡고 바로 조작하는 재미가 있어 반응이 빠른 후보입니다.</p>
+              <p class="warning"><b>주의</b> 건전지 포함 여부, 실내 주행 소음, 충격 내구성을 확인하세요.</p>
+              <a class="buy-button" href="https://link.coupang.com/a/eCmtEx" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
             </div>
           </article>
         </section>
@@ -245,6 +459,8 @@
           본 페이지의 가격, 할인, 배송 혜택은 변동될 수 있습니다. 정확한
           정보는 구매 전 쿠팡 상품 페이지에서 확인해 주세요.
         </p>
+        <p>상품 이미지는 쿠팡파트너스 검색 결과의 공개 상품 썸네일을 참고했습니다.</p>
+        <p>[광고] 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
         <p>© 2026 가성비연구소</p>
       </footer>
     </div>
