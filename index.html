@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>가성비연구소 | 선물·세일 상품 번호표</title>
+    <title>가성비연구소 | 어버이날 선물·세일 상품 번호표</title>
     <meta
       name="description"
-      content="어린이날, 어버이날, 가전 세일 등 쿠팡파트너스 추천 상품을 번호로 쉽게 찾는 큐레이션 페이지입니다."
+      content="어버이날 카네이션, 용돈카드, 부모님 실용 선물과 시즌 추천 상품을 번호로 쉽게 찾는 쿠팡파트너스 큐레이션 페이지입니다."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="가성비연구소 상품 번호표" />
+    <meta property="og:title" content="가성비연구소 어버이날 상품 번호표" />
     <meta
       property="og:description"
-      content="게시글에서 본 상품 번호를 눌러 가격·배송 정보를 바로 확인하세요."
+      content="Threads에서 본 어버이날 선물 번호를 눌러 가격·배송 정보를 바로 확인하세요."
     />
     <meta property="og:image" content="./assets/childrens-day-top5-card.png" />
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
@@ -31,29 +31,29 @@
           <span class="brand-mark">G</span>
           <span>가성비연구소</span>
         </div>
-        <h1>게시글에서 본 번호로<br />바로 찾아보세요</h1>
+        <h1>어버이날 선물<br />번호로 바로 찾기</h1>
         <p>
-          어린이날 선물은 나이대별·가격대별로 정리했습니다.
-          번호를 알고 있으면 아래 번호 찾기에 입력하면 됩니다.
+          카네이션, 용돈박스, 부모님 실용 선물을 상황별로 정리했습니다.
+          Threads에서 본 번호를 입력하면 해당 상품으로 바로 이동합니다.
         </p>
         <div class="hero-stats" aria-label="현재 등록된 추천 정보">
-          <span><b>75개</b> 어린이날 상품</span>
-          <span><b>5개</b> 나이대</span>
-          <span><b>3개</b> 가격 구간</span>
+          <span><b>30개</b> 어버이날 상품</span>
+          <span><b>3개</b> 선물 상황</span>
+          <span><b>105개</b> 전체 번호표</span>
         </div>
       </header>
 
       <section class="campaign-hub" aria-label="추천 카테고리">
-        <a class="campaign-card active" href="#childrens-day">
+        <a class="campaign-card active" href="#parents-day">
+          <span class="campaign-icon">🌸</span>
+          <strong>어버이날 선물</strong>
+          <em>76~105번 바로보기</em>
+        </a>
+        <a class="campaign-card" href="#childrens-day">
           <span class="campaign-icon">🎁</span>
           <strong>어린이날 선물</strong>
           <em>1~75번 바로보기</em>
         </a>
-        <div class="campaign-card coming">
-          <span class="campaign-icon">🌸</span>
-          <strong>어버이날 선물</strong>
-          <em>건강·안마·실용템 준비 중</em>
-        </div>
         <div class="campaign-card coming">
           <span class="campaign-icon">🔌</span>
           <strong>가전 세일</strong>
@@ -61,8 +61,12 @@
         </div>
       </section>
 
-      <nav class="category-tabs" aria-label="어린이날 상품 바로가기">
+      <nav class="category-tabs" aria-label="상품 번호 바로가기">
         <a href="#number-finder">🔎 번호 찾기</a>
+        <a href="#parents-day">🌸 어버이날</a>
+        <a href="#parent-carnation">카네이션</a>
+        <a href="#parent-money">용돈·카드</a>
+        <a href="#parent-care">실용·효도</a>
         <a href="#age-1-2">👶 1~2세</a>
         <a href="#age-2-3">🧸 2~3세</a>
         <a href="#age-3-5">🍦 3~5세</a>
@@ -72,6 +76,22 @@
       </nav>
 
       <main id="products" class="product-feed">
+        <section id="parents-day" class="quick-pick" aria-label="어버이날 상품 번호표">
+          <div>
+            <p class="eyebrow">어버이날 선물</p>
+            <h2>급하게 골라도 바로 찾기 쉽게</h2>
+            <p>
+              카네이션은 76~85번, 용돈 이벤트는 86~95번,
+              부모님 실용 선물은 96~105번에서 보면 됩니다.
+            </p>
+          </div>
+          <div class="age-map" aria-label="어버이날 선물 번호">
+            <a href="#parent-carnation"><b>76~85번</b><span>카네이션·꽃 선물</span></a>
+            <a href="#parent-money"><b>86~95번</b><span>용돈카드·용돈박스</span></a>
+            <a href="#parent-care"><b>96~105번</b><span>안마·족욕·건강 선물</span></a>
+          </div>
+        </section>
+
         <section id="childrens-day" class="quick-pick" aria-label="어린이날 상품 번호표">
           <div>
             <p class="eyebrow">어린이날 선물</p>
@@ -94,11 +114,11 @@
           <div>
             <p class="eyebrow">번호 찾기</p>
             <h2>몇 번 제품인지 알고 있다면</h2>
-            <p>1부터 75까지 숫자를 입력하면 해당 상품으로 바로 이동합니다.</p>
+            <p>1부터 105까지 숫자를 입력하면 해당 상품으로 바로 이동합니다.</p>
           </div>
           <form id="productJumpForm" class="jump-form">
             <label for="productJumpInput">상품 번호</label>
-            <input id="productJumpInput" type="number" min="1" max="75" inputmode="numeric" placeholder="예: 36" />
+            <input id="productJumpInput" type="number" min="1" max="105" inputmode="numeric" placeholder="예: 86" />
             <button type="submit">찾기</button>
           </form>
           <p id="productJumpMessage" class="jump-message" aria-live="polite"></p>
@@ -113,6 +133,18 @@
             </div>
           </div>
           <div class="price-grid">
+            <a href="#p76">
+              <strong>어버이날 꽃 선물</strong>
+              <span>76~85번 · 카네이션·비누꽃·꽃바구니</span>
+            </a>
+            <a href="#p86">
+              <strong>현금이 주인공일 때</strong>
+              <span>86~95번 · 용돈카드·용돈박스·돈부채</span>
+            </a>
+            <a href="#p96">
+              <strong>부모님 실용 선물</strong>
+              <span>96~105번 · 마사지기·족욕기·식품 선물</span>
+            </a>
             <a href="#p01">
               <strong>가볍게 선물</strong>
               <span>1~5번 · 16~20번 · 31~35번 · 46~50번 · 61~65번</span>
@@ -126,6 +158,372 @@
               <span>11~15번 · 26~30번 · 41~45번 · 56~60번 · 71~75번</span>
             </a>
           </div>
+        </section>
+
+        <section id="parent-carnation" class="product-section">
+          <div class="section-title">
+            <span>🌸</span>
+            <div>
+              <p>어버이날 · 76~85번</p>
+              <h2>카네이션은 작게라도 준비하기</h2>
+            </div>
+          </div>
+          <p class="section-lede">꽃은 배송일과 포장 상태가 중요합니다. 생화보다 오래 두고 볼 선물은 비누꽃·조화 쪽이 편합니다.</p>
+
+          <article id="p76" class="product-card" data-product-number="76번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">🌸</span></figure>
+            <div class="product-content">
+              <span class="badge pink">미니 플라워</span>
+              <h3>CO-SA 쁘띠 카네이션 플라워박스 비누꽃</h3>
+              <p class="price">확인가 약 14,310원</p>
+              <p class="reason">부담 적은 가격대에서 카네이션 느낌을 챙기기 좋아 가벼운 방문 선물로 무난합니다.</p>
+              <p class="warning"><b>주의</b> 생화가 아닌 비누꽃 타입이라 향과 보관 방식을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9432621432?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p77" class="product-card" data-product-number="77번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">💐</span></figure>
+            <div class="product-content">
+              <span class="badge pink">단체 선물</span>
+              <h3>어버이날 비누 카네이션 한송이 20개 세트</h3>
+              <p class="price">확인가 약 14,800원</p>
+              <p class="reason">부모님 외에도 선생님·지인에게 여러 개 나눠야 할 때 개당 부담이 낮습니다.</p>
+              <p class="warning"><b>주의</b> 낱개 포장 여부와 실제 수량 옵션을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8031057346?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p78" class="product-card" data-product-number="78번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">🧺</span></figure>
+            <div class="product-content">
+              <span class="badge purple">꽃바구니</span>
+              <h3>어버이날 카네이션 비누꽃 바구니</h3>
+              <p class="price">확인가 약 24,900원</p>
+              <p class="reason">상자보다 선물감이 있어 부모님 집에 바로 놓기 좋은 꽃바구니형입니다.</p>
+              <p class="warning"><b>주의</b> 배송 중 눌림 가능성이 있어 포장 리뷰를 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9487362124?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p79" class="product-card" data-product-number="79번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">🌺</span></figure>
+            <div class="product-content">
+              <span class="badge red">프리미엄 꽃</span>
+              <h3>더라임코리아 카네이션 비누꽃 꽃바구니</h3>
+              <p class="price">확인가 약 38,900원</p>
+              <p class="reason">조금 더 풍성한 꽃 선물 느낌을 내고 싶을 때 보기 좋은 구성입니다.</p>
+              <p class="warning"><b>주의</b> 꽃 크기와 쇼핑백 포함 여부를 상세페이지에서 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9440573054?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p80" class="product-card" data-product-number="80번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">🎀</span></figure>
+            <div class="product-content">
+              <span class="badge green">코사지</span>
+              <h3>카네이션 브로치 어버이날 코사지</h3>
+              <p class="price">확인가 약 5,280원</p>
+              <p class="reason">큰 선물은 따로 준비하고, 사진 찍을 때 달아드릴 작은 포인트가 필요할 때 좋습니다.</p>
+              <p class="warning"><b>주의</b> 핀 방식이라 옷감 손상 여부를 고려하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8743618248?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p81" class="product-card" data-product-number="81번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">📦</span></figure>
+            <div class="product-content">
+              <span class="badge orange">꽃+상자</span>
+              <h3>카네이션 코사지 용돈박스</h3>
+              <p class="price">확인가 약 19,800원</p>
+              <p class="reason">카네이션과 현금 선물을 같이 보여주고 싶을 때 설명이 쉬운 조합입니다.</p>
+              <p class="warning"><b>주의</b> 현금은 직접 넣어야 하며 머니홀더 수량을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8648123275?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p82" class="product-card" data-product-number="82번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">🎁</span></figure>
+            <div class="product-content">
+              <span class="badge pink">용돈박스</span>
+              <h3>로랑 카네이션 어버이날 용돈박스</h3>
+              <p class="price">확인가 약 15,800원</p>
+              <p class="reason">용돈을 그냥 봉투에 넣기 아쉬울 때 선물 포장감이 살아납니다.</p>
+              <p class="warning"><b>주의</b> 꽃 색상과 박스 사이즈 옵션을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8658560855?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p83" class="product-card" data-product-number="83번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">💌</span></figure>
+            <div class="product-content">
+              <span class="badge red">선물상자</span>
+              <h3>이플린 카네이션 용돈박스 + 용돈봉투</h3>
+              <p class="price">확인가 약 21,700원</p>
+              <p class="reason">봉투까지 같이 챙기고 싶은 사람에게 구성 이해가 쉬운 후보입니다.</p>
+              <p class="warning"><b>주의</b> 색상과 재고가 빨리 바뀔 수 있어 결제 전 옵션을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/5201710312?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p84" class="product-card" data-product-number="84번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">💝</span></figure>
+            <div class="product-content">
+              <span class="badge yellow">가성비</span>
+              <h3>감동팡팡 현금 용돈박스 카네이션 세트</h3>
+              <p class="price">확인가 약 11,200원</p>
+              <p class="reason">가격 부담을 낮추면서 현금 선물의 모양을 살리고 싶을 때 좋습니다.</p>
+              <p class="warning"><b>주의</b> 실제 구성품과 현금 고정 방식은 상세페이지를 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9460299702?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p85" class="product-card" data-product-number="85번 제품">
+            <figure class="product-visual carnation"><span aria-hidden="true">🍰</span></figure>
+            <div class="product-content">
+              <span class="badge purple">미니케익형</span>
+              <h3>카네이션 미니케익 용돈박스</h3>
+              <p class="price">확인가 약 6,900원</p>
+              <p class="reason">사진으로 봤을 때 반응이 잘 나오는 작은 이벤트형 선물입니다.</p>
+              <p class="warning"><b>주의</b> 먹는 케이크가 아니라 장식용 용돈박스인지 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8491016651?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+        </section>
+
+        <section id="parent-money" class="product-section">
+          <div class="section-title">
+            <span>💸</span>
+            <div>
+              <p>어버이날 · 86~95번</p>
+              <h2>용돈은 보여주는 방식이 클릭을 만듭니다</h2>
+            </div>
+          </div>
+          <p class="section-lede">현금 선물은 제품보다 연출이 중요합니다. 봉투 수량, 머니홀더 수량, 직접 조립 여부를 확인하세요.</p>
+
+          <article id="p86" class="product-card" data-product-number="86번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">💌</span></figure>
+            <div class="product-content">
+              <span class="badge pink">토퍼</span>
+              <h3>카네이션 용돈 토퍼</h3>
+              <p class="price">확인가 약 10,800원</p>
+              <p class="reason">봉투만 주기 밋밋할 때 케이크나 꽃 위에 꽂아 연출하기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 토퍼만 포함인지, 봉투까지 포함인지 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/7223678790?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p87" class="product-card" data-product-number="87번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">🌸</span></figure>
+            <div class="product-content">
+              <span class="badge red">카네이션 토퍼</span>
+              <h3>용돈토퍼 어버이날 카네이션 토퍼</h3>
+              <p class="price">확인가 약 10,900원</p>
+              <p class="reason">부모님께 드릴 현금 선물에 카네이션 포인트를 넣기 쉽습니다.</p>
+              <p class="warning"><b>주의</b> 품절 가능성이 있어 대체 색상 여부도 같이 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8016111902?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p88" class="product-card" data-product-number="88번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">🎉</span></figure>
+            <div class="product-content">
+              <span class="badge orange">이벤트형</span>
+              <h3>어버이날 용돈토퍼 카네이션토퍼</h3>
+              <p class="price">확인가 약 13,500원</p>
+              <p class="reason">짧은 영상이나 사진으로 남기기 쉬워 Threads 후기형 콘텐츠에도 맞습니다.</p>
+              <p class="warning"><b>주의</b> 조립 난이도와 배송 마감일을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8026708616?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p89" class="product-card" data-product-number="89번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">🪭</span></figure>
+            <div class="product-content">
+              <span class="badge yellow">돈부채</span>
+              <h3>맘초이스 돈부채 용돈부채 10p</h3>
+              <p class="price">확인가 약 13,800원</p>
+              <p class="reason">부모님이 펼치는 순간 반응이 나오는 이벤트성 용돈 선물입니다.</p>
+              <p class="warning"><b>주의</b> 현금은 미포함이며 지폐 고정 방식과 부채 수량을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8727458330?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p90" class="product-card" data-product-number="90번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">✨</span></figure>
+            <div class="product-content">
+              <span class="badge yellow">가성비 부채</span>
+              <h3>금빛 돈부채 용돈봉투 10P</h3>
+              <p class="price">확인가 약 10,370원</p>
+              <p class="reason">돈부채를 저렴하게 시도해보고 싶은 사람에게 접근성이 좋습니다.</p>
+              <p class="warning"><b>주의</b> 봉투 재질과 접착 방식은 후기 사진을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8703683452?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p91" class="product-card" data-product-number="91번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">🪙</span></figure>
+            <div class="product-content">
+              <span class="badge indigo">황금 부채</span>
+              <h3>morningscent 황금 용돈부채 20p</h3>
+              <p class="price">확인가 약 19,800원</p>
+              <p class="reason">칠순·생신까지 같이 챙기는 느낌을 내고 싶을 때 연출감이 큽니다.</p>
+              <p class="warning"><b>주의</b> 구성 수량과 실제 색감은 상세 사진을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9466097991?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p92" class="product-card" data-product-number="92번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">💵</span></figure>
+            <div class="product-content">
+              <span class="badge green">현금봉투</span>
+              <h3>어버이날 용돈 이벤트 신사임당 현금봉투</h3>
+              <p class="price">확인가 약 10,850원</p>
+              <p class="reason">진짜 현금 선물을 재미있게 보이게 만드는 봉투형 후보입니다.</p>
+              <p class="warning"><b>주의</b> 실제 지폐 포함 상품이 아니므로 구성품을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/6412657005?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p93" class="product-card" data-product-number="93번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">🏷️</span></figure>
+            <div class="product-content">
+              <span class="badge orange">고급 봉투</span>
+              <h3>24K 골드 캘리그라피 용돈 현금봉투</h3>
+              <p class="price">확인가 약 3,900원</p>
+              <p class="reason">작은 비용으로 봉투만 업그레이드하고 싶을 때 좋습니다.</p>
+              <p class="warning"><b>주의</b> 배송비와 최소 구매 수량을 함께 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9243213970?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p94" class="product-card" data-product-number="94번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">🥇</span></figure>
+            <div class="product-content">
+              <span class="badge yellow">골드바형</span>
+              <h3>골드바 용돈박스</h3>
+              <p class="price">확인가 약 15,840원</p>
+              <p class="reason">돈을 넣는 선물이지만 겉으로는 상장·골드바 느낌이 나서 반응을 만들기 쉽습니다.</p>
+              <p class="warning"><b>주의</b> 실제 금이 아닌 이벤트 박스인지 상세페이지를 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9491270357?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p95" class="product-card" data-product-number="95번 제품">
+            <figure class="product-visual money"><span aria-hidden="true">🎂</span></figure>
+            <div class="product-content">
+              <span class="badge purple">반전 케이크</span>
+              <h3>반전플라워 용돈케이크 대형</h3>
+              <p class="price">확인가 약 31,010원</p>
+              <p class="reason">현금을 꺼내는 재미가 있어 부모님 생신과 어버이날을 같이 챙길 때 좋습니다.</p>
+              <p class="warning"><b>주의</b> 직접 돈을 연결해야 하는지, 완제품인지 꼭 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9508205342?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+        </section>
+
+        <section id="parent-care" class="product-section">
+          <div class="section-title">
+            <span>🧘</span>
+            <div>
+              <p>어버이날 · 96~105번</p>
+              <h2>꽃 말고 실속을 원할 때</h2>
+            </div>
+          </div>
+          <p class="section-lede">안마기·족욕기·식품 선물은 효과를 과장하지 말고, 사용 편의성과 배송·교환 조건을 먼저 보게 하는 편이 안전합니다.</p>
+
+          <article id="p96" class="product-card" data-product-number="96번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">💆</span></figure>
+            <div class="product-content">
+              <span class="badge blue">입문 마사지</span>
+              <h3>바디슨건 Ai90 미니 마사지건</h3>
+              <p class="price">확인가 약 17,900원</p>
+              <p class="reason">가격 부담이 낮아 부모님이 마사지건을 처음 써보는 경우 후보로 보기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 의료기기가 아니며 강도, 무게, 충전 방식을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8438198022?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p97" class="product-card" data-product-number="97번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🎒</span></figure>
+            <div class="product-content">
+              <span class="badge indigo">파우치 세트</span>
+              <h3>바디슨건 Ai90 마사지건 파우치 세트</h3>
+              <p class="price">확인가 약 24,900원</p>
+              <p class="reason">보관 파우치까지 챙기고 싶을 때 선물 구성처럼 보이기 쉽습니다.</p>
+              <p class="warning"><b>주의</b> 구성 헤드 수와 보증 조건을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/7799695106?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p98" class="product-card" data-product-number="98번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🔥</span></figure>
+            <div class="product-content">
+              <span class="badge red">온열 안마</span>
+              <h3>쿠오레 무선 온열 목·어깨 마사지기</h3>
+              <p class="price">확인가 약 109,000원</p>
+              <p class="reason">조금 제대로 된 부모님 선물로 보이면서 사용 부위가 명확한 편입니다.</p>
+              <p class="warning"><b>주의</b> 온열 제품은 사용 시간, 충전, 안전 안내를 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9344475924?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p99" class="product-card" data-product-number="99번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🧣</span></figure>
+            <div class="product-content">
+              <span class="badge green">저가 안마</span>
+              <h3>어깨·목 전기 마사지기</h3>
+              <p class="price">확인가 약 18,800원</p>
+              <p class="reason">목·어깨 중심으로 가볍게 써볼 선물을 찾는 사람에게 가격 접근성이 좋습니다.</p>
+              <p class="warning"><b>주의</b> 유선 여부, 소음, 무게, KC 인증 정보를 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/7838563880?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p100" class="product-card" data-product-number="100번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🦶</span></figure>
+            <div class="product-content">
+              <span class="badge sky">족욕기</span>
+              <h3>어버이날 부모님 선물 족욕기</h3>
+              <p class="price">확인가 약 49,000원</p>
+              <p class="reason">꽃보다 실제로 쓸 물건을 찾는 부모님에게 설명하기 쉬운 선물입니다.</p>
+              <p class="warning"><b>주의</b> 물 사용 방식, 배수, 보관 크기, 반품 조건을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/9450869671?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p101" class="product-card" data-product-number="101번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🪵</span></figure>
+            <div class="product-content">
+              <span class="badge orange">고가 족욕</span>
+              <h3>온유어핏 편백나무 건식 족욕기</h3>
+              <p class="price">확인가 약 249,000원</p>
+              <p class="reason">부피 있는 메인 선물로 보이며, 물 관리가 부담인 집에 건식 타입을 비교할 수 있습니다.</p>
+              <p class="warning"><b>주의</b> 크기, 전력, 보증, 설치 공간을 먼저 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/7300241349?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p102" class="product-card" data-product-number="102번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🛏️</span></figure>
+            <div class="product-content">
+              <span class="badge purple">안마매트</span>
+              <h3>AngelMegio 온열 전신 안마매트</h3>
+              <p class="price">확인가 약 99,990원</p>
+              <p class="reason">의자형보다 공간 부담을 낮추고 싶을 때 비교하기 좋은 매트형 후보입니다.</p>
+              <p class="warning"><b>주의</b> 의료효과 표현은 믿지 말고, 사용감·소음·반품비를 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/8393331919?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p103" class="product-card" data-product-number="103번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🧘</span></figure>
+            <div class="product-content">
+              <span class="badge indigo">고급 안마</span>
+              <h3>GUDITH 온열 진동 전신 마사지기</h3>
+              <p class="price">확인가 약 159,990원</p>
+              <p class="reason">부모님 선물 예산을 크게 잡았을 때 고가형 비교군으로 넣기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 반품비가 클 수 있으니 배송·교환 조건을 꼭 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/7715617221?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p104" class="product-card" data-product-number="104번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🧃</span></figure>
+            <div class="product-content">
+              <span class="badge red">식품 선물</span>
+              <h3>6년근 홍삼정 스틱형 60포</h3>
+              <p class="price">확인가 약 39,890원</p>
+              <p class="reason">매일 챙겨 먹는 타입의 선물을 찾는 부모님께 무난하게 제안하기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 건강 관련 효과를 단정하지 말고 원재료와 섭취 주의사항을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/7660326335?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
+          <article id="p105" class="product-card" data-product-number="105번 제품">
+            <figure class="product-visual care"><span aria-hidden="true">🥜</span></figure>
+            <div class="product-content">
+              <span class="badge green">견과 선물</span>
+              <h3>투데이넛 너트한줌 후르츠 견과 선물세트</h3>
+              <p class="price">확인가 약 45,930원</p>
+              <p class="reason">꽃이나 안마기보다 먹는 선물을 선호하는 부모님께 부담 없이 제안하기 좋습니다.</p>
+              <p class="warning"><b>주의</b> 알레르기, 유통기한, 구성 수량을 확인하세요.</p>
+              <a class="buy-button" href="https://www.coupang.com/vp/products/2534206?lptag=AF6246061" target="_blank" rel="sponsored noopener noreferrer">쿠팡에서 가격·배송 확인</a>
+            </div>
+          </article>
         </section>
 
         <section id="age-1-2" class="product-section">
@@ -1018,11 +1416,11 @@
             </div>
           </div>
           <ul>
-            <li>권장연령이 아이 나이와 맞는지</li>
-            <li>작은 부품이나 자석 삼킴 위험이 없는지</li>
-            <li>세척 또는 보관이 쉬운지</li>
-            <li>소리 크기, 충전 방식, 건전지 포함 여부</li>
-            <li>가격과 배송 가능 여부는 상품 페이지 기준인지</li>
+            <li>어버이날 선물은 2026년 5월 8일 전 도착 가능한지</li>
+            <li>카네이션은 생화, 조화, 비누꽃 중 어떤 타입인지</li>
+            <li>용돈박스는 현금 미포함인지, 머니홀더 수량이 충분한지</li>
+            <li>안마기·족욕기는 보관 공간, 전원 방식, 반품비가 괜찮은지</li>
+            <li>가격과 배송 가능 여부는 구매 직전 상품 페이지 기준인지</li>
           </ul>
         </section>
       </main>
@@ -1032,7 +1430,7 @@
           본 페이지의 가격, 할인, 배송 혜택은 변동될 수 있습니다. 정확한
           정보는 구매 전 쿠팡 상품 페이지에서 확인해 주세요.
         </p>
-        <p>상품 이미지는 쿠팡파트너스 검색 결과의 공개 상품 썸네일을 참고했습니다.</p>
+        <p>상품별 가격과 배송 정보는 변동될 수 있어 버튼 클릭 후 쿠팡 상품 페이지에서 최종 확인해야 합니다.</p>
         <p>[광고] 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
         <p>© 2026 가성비연구소</p>
       </footer>
@@ -1046,10 +1444,10 @@
       jumpForm?.addEventListener("submit", (event) => {
         event.preventDefault();
         const number = Number(jumpInput.value);
-        const isValid = Number.isInteger(number) && number >= 1 && number <= 75;
+        const isValid = Number.isInteger(number) && number >= 1 && number <= 105;
 
         if (!isValid) {
-          jumpMessage.textContent = "1번부터 75번까지 입력해 주세요.";
+          jumpMessage.textContent = "1번부터 105번까지 입력해 주세요.";
           jumpInput.focus();
           return;
         }

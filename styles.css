@@ -44,7 +44,8 @@ img {
 
 .app-shell {
   position: relative;
-  max-width: 480px;
+  width: 100%;
+  max-width: 390px;
   min-height: 100svh;
   margin: 0 auto;
   background: var(--app-bg);
@@ -134,9 +135,13 @@ figure {
 
 .hero-stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 0.5rem;
   margin-top: 1rem;
+}
+
+.hero-stats span:last-child {
+  grid-column: auto;
 }
 
 .hero-stats span {
@@ -292,7 +297,7 @@ figure {
 
 .age-map {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 0.55rem;
 }
 
@@ -302,10 +307,6 @@ figure {
   border-radius: 0.9rem;
   background: #f9fafb;
   padding: 0.72rem;
-}
-
-.age-map a:first-child {
-  grid-column: 1 / -1;
 }
 
 .age-map b,
@@ -481,6 +482,39 @@ figure {
   object-fit: cover;
   object-position: top center;
   padding: 0;
+}
+
+.product-visual {
+  min-height: 13.5rem;
+}
+
+.product-visual span {
+  display: grid;
+  place-items: center;
+  width: 8.2rem;
+  height: 8.2rem;
+  border-radius: 2rem;
+  background: #fff;
+  font-size: 4.2rem;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.1);
+}
+
+.product-visual.carnation {
+  background:
+    radial-gradient(circle at 78% 15%, rgba(252, 165, 165, 0.3), transparent 28%),
+    linear-gradient(180deg, #fff7f7 0%, #fff 100%);
+}
+
+.product-visual.money {
+  background:
+    radial-gradient(circle at 20% 15%, rgba(250, 204, 21, 0.3), transparent 30%),
+    linear-gradient(180deg, #fffaf0 0%, #fff 100%);
+}
+
+.product-visual.care {
+  background:
+    radial-gradient(circle at 80% 8%, rgba(147, 197, 253, 0.26), transparent 32%),
+    linear-gradient(180deg, #f7fbff 0%, #fff 100%);
 }
 
 .product-content {
@@ -691,5 +725,15 @@ footer p + p {
 
   .product-card figure img {
     height: 12rem;
+  }
+
+  .product-visual {
+    min-height: 12rem;
+  }
+
+  .product-visual span {
+    width: 7.2rem;
+    height: 7.2rem;
+    font-size: 3.5rem;
   }
 }
